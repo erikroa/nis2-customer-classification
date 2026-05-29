@@ -1,0 +1,38 @@
+source_value,nis2_classification,nis2_annex,nis2_sub_sector,dora_applicable,notes_for_compliance
+Construction and Engineering,Out of scope,N/A,N/A,FALSE,Not a NIS2 sector unless customer operates critical infrastructure
+Construction & Engineering,Out of scope,N/A,N/A,FALSE,Variant of Construction
+Service Industry,Out of scope,N/A,N/A,FALSE,Too generic — review case-by-case if needed
+Trade,Out of scope,N/A,N/A,FALSE,Typically out unless wholesale chemicals or food
+Property and Housing Sector,Out of scope,N/A,N/A,FALSE,
+Consultancies and Agencies,Out of scope,N/A,N/A,FALSE,
+Hotels and Gastronomy,Out of scope,N/A,N/A,FALSE,
+Advertising and Marketing,Out of scope,N/A,N/A,FALSE,
+Education and Teaching,Out of scope,N/A,N/A,FALSE,Excluded unless research institution (Annex 2)
+Agriculture and Forestry,Out of scope,N/A,N/A,FALSE,
+Heating/Sanitary,Out of scope,N/A,N/A,FALSE,
+Electrical Installation,Out of scope,N/A,N/A,FALSE,Trade work — distinct from Energy sector
+Tax Advisors,Out of scope,N/A,N/A,FALSE,Auditors of financial entities fall under DORA — split if applicable
+Arts and Entertainment,Out of scope,N/A,N/A,FALSE,
+Sports Entertainment & Arts,Out of scope,N/A,N/A,FALSE,Variant
+Entertainment and Arts,Out of scope,N/A,N/A,FALSE,
+Publishing,Out of scope,N/A,N/A,FALSE,Digital publishers may fall under Annex 2 digital services — verify
+Others,Unknown,N/A,N/A,FALSE,Cannot classify — manual review
+Unknown,Unknown,N/A,N/A,FALSE,
+Industry not matched,Unknown,N/A,N/A,FALSE,
+Not matched,Unknown,N/A,N/A,FALSE,
+Industrial Services,Unknown,N/A,N/A,FALSE,Single records — verify
+Energy Industry,Essential Entity,Annex 1,Energy,FALSE,NIS2 Annex 1 — Energy sector
+Health Care and Social Sector,Essential Entity,Annex 1,Health,FALSE,NIS2 Annex 1 — Health
+Medical Technology,Essential Entity,Annex 1,Health,FALSE,NIS2 Annex 1 — manufacture of critical medical devices
+Finance and Insurance Services,Essential Entity,Annex 1,Finance,TRUE,CRITICAL split needed: banks/payment/investment = DORA; insurers = DORA; pure brokers = check
+Telecommunications Sector,Essential Entity,Annex 1,Digital Infrastructure,FALSE,NIS2 Annex 1 — public electronic communications networks/services
+IT Service,Unknown,Annex 1?,Digital Infrastructure?,FALSE,CRITICAL: split required — MSPs/MSSPs/Cloud/CDN = Annex 1 Essential; pure IT consulting = out of scope
+Public Administration,Important Entity,Annex 1?,Public Administration,FALSE,Federal/state may be NIS2 Annex 1; municipal lower priority — confirm jurisdiction
+Manufacturing and Processing,Important Entity,Annex 2,Manufacturing,FALSE,NIS2 Annex 2 — manufacturing (broad)
+Industrial Sector,Important Entity,Annex 2,Manufacturing,FALSE,Maps to manufacturing if production-oriented
+Food Manufacturing and Processing,Important Entity,Annex 2,Food,FALSE,NIS2 Annex 2 — food production/processing
+Food Manufacturing & Processing,Important Entity,Annex 2,Food,FALSE,Variant
+Chemical Industry,Important Entity,Annex 2,Chemicals,FALSE,NIS2 Annex 2 — chemicals manufacture/trade
+Automotive Industry,Important Entity,Annex 2,Manufacturing,FALSE,NIS2 Annex 2 — motor vehicles & parts
+Transportation,Important Entity,Annex 2,Transport,FALSE,NIS2 Annex 2 — transport (subsector to confirm)
+Logistics Sector,Important Entity,Annex 2,Transport,FALSE,Likely Annex 2 Postal/Courier or Transport — confirm
