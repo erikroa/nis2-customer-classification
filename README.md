@@ -26,7 +26,7 @@ This repo is a worked example of how to handle each of those, **with the limitat
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/<your-username>/nis2-customer-classification.git
+git clone https://github.com/erikroa/nis2-customer-classification.git
 cd nis2-customer-classification
 pip install -r requirements.txt
 
